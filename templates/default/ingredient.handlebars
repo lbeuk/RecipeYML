@@ -1,0 +1,13 @@
+<span>
+    {{#if cref}}
+    <a href="#{{cref}}">
+    {{/if}}
+        <b>{{name}}:</b>
+    {{#if cref}}
+    </a>
+    {{/if}}
+    {{amount}} 
+</span>
+{{#if note}}
+    <br /><span><i>{{note}}</i></span>
+{{/if}}
